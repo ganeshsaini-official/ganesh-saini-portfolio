@@ -1,0 +1,318 @@
+@media screen and(max-width:992px) {}
+
+@media screen and (max-width:1024px) {
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .middle-navbar {
+        width: 420px;
+    }
+.right-navbar {
+    width: 232px;
+}
+    .middle-navbar a {
+        font-size: 18px;
+    }
+
+    .skills-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects-main-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .project-title-container {
+        width: 302px;
+    }
+}
+
+/* Media Query for Tablet-------------> */
+
+@media screen and (max-width :770px) {
+    .container {
+        padding: 0 30px;
+        margin: auto;
+    }
+
+    .menu-icon-container {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: color 0.3s ease;
+    }
+
+
+    .middle-navbar,
+    .right-navbar {
+        display: none;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 1070px;
+        padding-top: 170px;
+
+
+    }
+
+    .left-hero-container {
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        margin-top: 25px;
+
+    }
+
+    .name-heading {
+        font-size: 25px;
+    }
+
+    .name-heading h1 {
+        text-align: center;
+    }
+
+    .left-hero-container h2 {
+        font-size: 28px;
+
+    }
+
+    .stats-section {
+        height: 632px;
+        flex-direction: column;
+    }
+
+    .left-state-experience {
+        gap: 20px;
+        height: 110px;
+        width: 240px;
+    }
+
+    .left-stats-section {
+        width: 100%;
+        height: 240px;
+        padding: 30px;
+        gap: 15px;
+        align-items: center;
+
+    }
+
+    .stats-ection-skills div {
+        font-size: 35px;
+    }
+
+    .stats-ection-skills span {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .right-stats-section {
+        width: 100%;
+    }
+
+    .skills-section {
+        width: 100%;
+        height: 800px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .education-main-section {
+        height: 1100px;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .single-education-container {
+        height: 170px;
+    }
+
+    .left-education-section {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .left-education-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .right-education-section {
+        width: 100%;
+    }
+
+    .projects-main-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-title-container {
+        width: 100%;
+    }
+
+    .my-image {
+        height: 560px;
+
+    }
+
+    .right-hero-container {
+        width: 100%;
+        height: 412px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-state-experience h3 {
+        font-size: 130px;
+    }
+
+    .left-state-experience span {
+        font-size: 30px;
+    }
+
+    .experience-section {
+        flex-direction: column-reverse;
+        height: 890px;
+
+    }
+
+    .left-experience-container {
+        width: 100%;
+
+    }
+
+    .right-experience-container {
+        width: 100%;
+        height: 408px;
+    }
+
+    .contact-form-container {
+        height: 870px;
+        padding: 25px;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .left-contact-form {
+        width: 100%;
+        height: 218px;
+        text-align: center;
+    }
+
+    .heading-cotent h1 {
+        font-size: 25px;
+
+    }
+
+    .right-contact-form {
+        width: 100%;
+        height: 545px;
+        flex-direction: column;
+
+    }
+
+    .contact-container {
+        flex-direction: column;
+
+
+    }
+
+    .form-inputs-group {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-main-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        text-align: center;
+        height: 1030px;
+        margin-bottom: 10px;
+    }
+
+    .footer-colomn-first {
+
+        align-items: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        height: 100px;
+
+
+    }
+
+    .footer-single-colomn {
+        width: 100%;
+        height: 290px;
+    }
+
+}
+
+/* Media Query for Mobile-------------> */
+
+@media screen and (max-width :480px) {
+
+    .container {
+        padding: 0 50px;
+    }
+
+    .container {
+        padding: 0 20px;
+        margin: auto;
+    }
+
+    .hero-container {
+        height: 895px;
+        padding-top: 57px;
+    }
+
+    .left-hero-container h2 {
+        font-size: 20px;
+    }
+
+    .view-project-container {
+        margin-top: 16px;
+    }
+
+    .stats-section {
+        height: 750px;
+    }
+
+    .left-stats-section {
+        height: 316px;
+    }
+
+    .education-main-section {
+        height: 1244px;
+    }
+
+    .single-education-container {
+        height: 266px;
+    }
+
+    .left-education-section {
+        height: 1240px;
+    }
+
+    .my-image {
+        height: 410px;
+    }
+
+}
