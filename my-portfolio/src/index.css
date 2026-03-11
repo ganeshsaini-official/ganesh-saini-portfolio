@@ -179,7 +179,18 @@ header {
   gap: 30px;
 }
 
-.right-navbar li {
+.menu-icons-container {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  padding-left: 22px;
+}
+
+.right-navbar li,
+.menu-icons-container li {
   background-color: rgba(10, 10, 10, 0.06);
   height: 35px;
   width: 35px;
@@ -194,7 +205,8 @@ header {
   transition: color 0.3s ease;
 }
 
-.right-navbar li::before {
+.right-navbar li::before,
+.menu-icons-container li::before {
   content: "";
   position: absolute;
   width: 0;
@@ -204,18 +216,25 @@ header {
   transition: 0.4s ease;
 }
 
-.right-navbar li:hover::before {
+.right-navbar li:hover::before,
+.menu-icons-container li:hover::before {
   height: 35px;
   width: 35px;
 
 }
 
-.right-navbar li svg {
+.right-navbar li svg,
+.menu-icons-container li svg {
+  color: #141414;
+  position: relative;
   z-index: 1;
+
 }
 
-.right-navbar li:hover {
+.right-navbar li:hover svg,
+.menu-icons-container li:hover svg {
   color: #f4f4f4;
+  transition: 0.4s ease;
 }
 
 .menu-slide {

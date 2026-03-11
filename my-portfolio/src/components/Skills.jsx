@@ -7,7 +7,7 @@ import js from "../assets/skills/js.png"
 import react from "../assets/skills/reacticon.png"
 import tailwind from "../assets/skills/tailwind.jpg"
 import nodeJs from "../assets/skills/nodeJs.png"
-import MongoDB from "../assets/skills/mongoDB.png"
+import MongoDB from "../assets/skills/mongodb.png"
 
 const Skills = () => {
     return (

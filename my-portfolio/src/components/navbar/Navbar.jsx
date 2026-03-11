@@ -88,8 +88,6 @@ const Navbar = () => {
                                 </div>
                                 <div className="closing-menu-icon"> </div>
                             </div>
-
-
                         </div>
                         {menuSlide && <div className="menu-overlay"
                             onClick={() => setMenuSlide(false)} >
@@ -116,6 +114,28 @@ const Navbar = () => {
                     <div> <NavLink to="experience/" >Experience</NavLink></div>
                     <div> <NavLink to="contact/" >Contact</NavLink></div>
                 </div>
+                    <ul className="menu-icons-container">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ganesh-saini-dev" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ganeshsaini-official" target="_blank" rel="noopener noreferrer">
+                            <FaGithub />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@GS_tech_world" target="_blank" rel="noopener noreferrer">
+                            <IoLogoYoutube />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <GrInstagram />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </>
     )
