@@ -26,10 +26,10 @@ const Home = () => {
                                     using MongoDB, Express.js, React.js, and Node.js.
                                     Passionate about clean code, modern UI, and solving real-world problems.
                                 </p>
-                                <div className="view-project-container">
-                                    <span
-                                    onClick={()=>navigate("/projects")}
-                                    >View Projects</span>
+                                <div className="view-project-container"
+                                    onClick={() => navigate("/projects")}
+                                >
+                                    <span>View Projects</span>
                                     <FaArrowRight />
                                 </div>
                             </div>
