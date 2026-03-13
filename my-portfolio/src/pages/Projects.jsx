@@ -31,7 +31,7 @@ const Projects = () => {
                 "Built with modern UI and smooth music player experience with playlist features.",
             live: "https://ganeshsaini-official.github.io/spotify-clone/",
         },
-        
+
         {
             title: "The Ganesh Restaurant ",
             img: Restaurant,
@@ -81,7 +81,15 @@ const Projects = () => {
                         <div className="single-project-container" key={index}>
 
                             <div className="project-img-container">
-                                <img src={project.img} alt={project.title} />
+                                <a
+                                    href={project.live}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-view-arrow"
+                                >
+                                    <img src={project.img} alt={project.title} />
+
+                                </a>
                             </div>
 
                             <div className="project-detail-container">
