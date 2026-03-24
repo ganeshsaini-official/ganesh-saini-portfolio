@@ -10,7 +10,7 @@ const Experience = () => {
                         <div className="left-experience-container">
                             <div className="single-experience-container">
                                 <h2>MERN Stack Developer Intern</h2>
-                                <h3>A2G Company | Dec 2025 – Feb 2026</h3>
+                                <h3>A2G Ventures Pvt. Ltd | Dec 2025 - Feb 2026</h3>
                                 <ul>
                                     <li>Developed full-stack social media web app</li>
                                     <li>Implemented JWT authentication </li>
